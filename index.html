@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Wizard</title>
+  <link rel="stylesheet" href="./Assets/reset.css">
+  <link rel="stylesheet" href="./Assets/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Wizard</h1>
+  </header>
+  <main>
+    <section class="search">
+      <form id="city-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button type="submit">Search</button>
+      </form>
+      <ul id="search-history">
+      </ul>
+    </section>
+    <section class="current-weather">
+      <h2>Current Weather</h2>
+      <div id="current-weather">
+      </div>
+    </section>
+    <section class="forecast">
+      <h2>5-Day Forecast</h2>
+      <div id="forecast">>
+      </div>
+    </section>
+  </main>
+  <script src="./Assets/script.js"></script>
+</body>
+
+</html>
